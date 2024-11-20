@@ -1,0 +1,85 @@
+object frm_principal: Tfrm_principal
+  Left = 0
+  Top = 0
+  Caption = 'Sistema de Clientes'
+  ClientHeight = 479
+  ClientWidth = 774
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  Menu = MainMenu1
+  OldCreateOrder = False
+  WindowState = wsMaximized
+  PixelsPerInch = 96
+  TextHeight = 13
+  object StatusBar1: TStatusBar
+    Left = 0
+    Top = 460
+    Width = 774
+    Height = 19
+    Panels = <
+      item
+        Text = 'Sistema de Clientes'
+        Width = 110
+      end
+      item
+        Text = 'Criado por: '
+        Width = 70
+      end
+      item
+        Text = 'Bruno e Cau'#227
+        Width = 100
+      end
+      item
+        Text = 'Data: '
+        Width = 300
+      end
+      item
+        Text = 'Hora:'
+        Width = 70
+      end>
+    ExplicitTop = 430
+  end
+  object pnl_topo: TPanel
+    Left = 0
+    Top = 0
+    Width = 774
+    Height = 41
+    Align = alTop
+    TabOrder = 1
+  end
+  object MainMenu1: TMainMenu
+    Left = 296
+    Top = 112
+    object Arquivo1: TMenuItem
+      Caption = 'Arquivo'
+      object Abrir1: TMenuItem
+        Caption = 'Abrir'
+      end
+      object Fechar1: TMenuItem
+        Caption = 'Fechar'
+      end
+      object Salvar1: TMenuItem
+        Caption = 'Salvar'
+      end
+    end
+    object Cadastro1: TMenuItem
+      Caption = 'Cadastro'
+      object Clientes2: TMenuItem
+        Caption = 'Clientes'
+        OnClick = Clientes2Click
+      end
+    end
+    object Clientes1: TMenuItem
+      Caption = 'Fechar'
+    end
+  end
+  object Timer1: TTimer
+    OnTimer = Timer1Timer
+    Left = 440
+    Top = 104
+  end
+end

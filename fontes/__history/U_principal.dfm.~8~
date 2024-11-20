@@ -1,0 +1,53 @@
+object frm_principal: Tfrm_principal
+  Left = 0
+  Top = 0
+  Caption = 'Sistema de Clientes'
+  ClientHeight = 661
+  ClientWidth = 1264
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  Menu = MainMenu1
+  OldCreateOrder = False
+  WindowState = wsMaximized
+  PixelsPerInch = 96
+  TextHeight = 13
+  object pnl_topo: TPanel
+    Left = 0
+    Top = 0
+    Width = 1264
+    Height = 41
+    Align = alTop
+    TabOrder = 0
+    ExplicitWidth = 774
+  end
+  object MainMenu1: TMainMenu
+    Left = 296
+    Top = 112
+    object Arquivo1: TMenuItem
+      Caption = 'Arquivo'
+      object Abrir1: TMenuItem
+        Caption = 'Abrir'
+      end
+      object Fechar1: TMenuItem
+        Caption = 'Fechar'
+      end
+      object Salvar1: TMenuItem
+        Caption = 'Salvar'
+      end
+    end
+    object Cadastro1: TMenuItem
+      Caption = 'Cadastro'
+      object Clientes2: TMenuItem
+        Caption = 'Clientes'
+        OnClick = Clientes2Click
+      end
+    end
+    object Clientes1: TMenuItem
+      Caption = 'Fechar'
+    end
+  end
+end

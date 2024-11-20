@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/06/24 10:36:25.000.234,=C:\Users\vaiop\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>2021/08/12 08:20:28.000.513,=C:\Users\vaiop\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>2021/08/12 08:23:14.000.539,C:\352b\lucas\sistemadeclientes\fontes\U_principal.pas=C:\Users\vaiop\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>2021/08/12 08:23:14.000.539,C:\352b\lucas\sistemadeclientes\fontes\U_principal.dfm=C:\Users\vaiop\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit6.dfm</Transaction>
+    <Transaction>2021/08/12 08:23:35.000.648,C:\352b\lucas\sistemadeclientes\SistemaClientes.dproj=C:\Users\vaiop\OneDrive\Documentos\Embarcadero\Studio\Projects\Project6.dproj</Transaction>
+    <Transaction>2021/08/12 08:50:09.000.697,=C:\352b\lucas\sistemadeclientes\Unit1.pas</Transaction>
+    <Transaction>2021/08/12 08:50:48.000.617,C:\352b\lucas\sistemadeclientes\fontes\U_dm.pas=C:\352b\lucas\sistemadeclientes\Unit1.pas</Transaction>
+    <Transaction>2021/08/12 08:50:48.000.617,C:\352b\lucas\sistemadeclientes\fontes\U_dm.dfm=C:\352b\lucas\sistemadeclientes\Unit1.dfm</Transaction>
+    <Transaction>2021/08/12 09:42:28.000.037,=C:\352b\lucas\sistemadeclientes\Unit1.pas</Transaction>
+    <Transaction>2021/08/12 09:43:05.000.882,C:\352b\lucas\sistemadeclientes\fontes\U_Clientes.pas=C:\352b\lucas\sistemadeclientes\Unit1.pas</Transaction>
+    <Transaction>2021/08/12 09:43:05.000.882,C:\352b\lucas\sistemadeclientes\fontes\U_Clientes.dfm=C:\352b\lucas\sistemadeclientes\Unit1.dfm</Transaction>
+  </Transactions>
+</BorlandProject>
